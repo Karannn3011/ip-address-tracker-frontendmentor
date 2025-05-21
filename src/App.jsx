@@ -29,8 +29,8 @@ export default function App() {
       setError(null);
 
       const url = ip
-        ? `https://ip-api.com/json/${ip}`
-        : "https://ip-api.com/json/";
+        ? `http://ip-api.com/json/${ip}`
+        : "http://ip-api.com/json/";
       const response = await fetch(url);
 
       if (!response.ok) {
