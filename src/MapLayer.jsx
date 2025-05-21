@@ -21,5 +21,5 @@ export default function MapLayer({ lat, lon }) {
     };
   }, [lat, lon]);
 
-  return <div id="map" className="w-full h-[500px] z-10"></div>;
+  return <div id="map" className="w-full h-[100vh] z-10"></div>;
 }
